@@ -1,0 +1,16 @@
+---
+import type { HTMLTag, Polymorphic } from "astro/types";
+
+import * as klass from "./klass";
+import { splitProps } from "./utils";
+
+type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag } & klass.TextVariants>;
+
+const { as: Tag = "div", ...props } = Astro.props;
+
+const [classes, variants, attrs] = splitProps(props, ["class", "class:list"], klass.Text.variantKeys);
+---
+
+<Tag {...attrs} class={klass.Text(variants, [classes.class, classes["class:list"]])}>
+  <slot />
+</Tag>

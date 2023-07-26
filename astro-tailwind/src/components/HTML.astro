@@ -1,0 +1,26 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+import "~/globals.css";
+
+type Props = HTMLAttributes<"html">;
+---
+
+<html lang="en" data-theme="dark" {...Astro.props}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/x-icon" href="https://klass.pages.dev/favicon.ico" />
+    <title>Klass + Astro + Tailwind</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<script>
+  let initialTheme = localStorage.getItem("klass:theme");
+  if (initialTheme !== "light" && initialTheme !== "dark") initialTheme = "dark";
+  document.documentElement.setAttribute("data-theme", initialTheme);
+</script>
