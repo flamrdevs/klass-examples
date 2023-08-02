@@ -8,7 +8,7 @@ type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag } & klass.ButtonVariants
 
 const { as: Tag = "button", ...props } = Astro.props;
 
-const [classes, variants, attrs] = splitProps(props, ["class", "class:list"], klass.Button.variantKeys);
+const [classes, variants, attrs] = splitProps(props, ["class", "class:list"], klass.Button.vk);
 ---
 
 <Tag type="button" {...attrs} class={klass.Button(variants, [classes.class, classes["class:list"]])}>

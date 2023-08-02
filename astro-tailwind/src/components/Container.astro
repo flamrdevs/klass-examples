@@ -8,7 +8,7 @@ type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag } & klass.ContainerVaria
 
 const { as: Tag = "div", ...props } = Astro.props;
 
-const [classes, variants, attrs] = splitProps(props, ["class", "class:list"], klass.Container.variantKeys);
+const [classes, variants, attrs] = splitProps(props, ["class", "class:list"], klass.Container.vk);
 ---
 
 <Tag {...attrs} class={klass.Container(variants, [classes.class, classes["class:list"]])}>
