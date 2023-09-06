@@ -7,6 +7,9 @@ dependencies:
   astro:
     specifier: ^3.0.8
     version: 3.0.8
+  propsplit:
+    specifier: ^1.0.0
+    version: 1.0.0
 
 devDependencies:
   '@astrojs/tailwind':
@@ -2439,6 +2442,10 @@ packages:
 
   /property-information@6.3.0:
     resolution: {integrity: sha512-gVNZ74nqhRMiIUYWGQdosYetaKc83x8oT41a0LlV3AAFCAZwCpg4vmGkq8t34+cUhp3cnM4XDiU/7xlgK7HGrg==}
+
+  /propsplit@1.0.0:
+    resolution: {integrity: sha512-yG4sNQMGnxDYuPbAINCj6fB3qTwf6V72xKMVoftUQBVnw6vkQjhG5uTpPfmodiV4hTQmwtHt+sFINLqGVHiMYg==}
+    dev: false
 
   /pump@3.0.0:
     resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}

@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@klass/core": "^2.0.5",
-    "astro": "^3.0.8"
+    "astro": "^3.0.8",
+    "propsplit": "^1.0.0"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.0.0",

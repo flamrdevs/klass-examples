@@ -2,13 +2,13 @@
 import type { HTMLAttributes } from "astro/types";
 
 import { cxs } from "@klass/core";
-import { splitProps } from "./utils";
+import propsplit from "propsplit";
 
 type Props = HTMLAttributes<"svg"> & { size?: number };
 
 const { size = 24, ...props } = Astro.props;
 
-const [classes, attrs] = splitProps(props, ["class", "class:list"]);
+const [classes, attrs] = propsplit(props, ["class", "class:list"]);
 ---
 
 <svg

@@ -2,13 +2,13 @@
 import type { HTMLTag, Polymorphic } from "astro/types";
 
 import * as klass from "./klass";
-import { splitProps } from "./utils";
+import propsplit from "propsplit";
 
 type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag } & klass.IconButtonVariants>;
 
 const { as: Tag = "button", ...props } = Astro.props;
 
-const [classes, variants, attrs] = splitProps(props, ["class", "class:list"], klass.IconButton.vk);
+const [classes, variants, attrs] = propsplit(props, ["class", "class:list"], klass.IconButton.vk);
 ---
 
 <Tag type="button" {...attrs} class={klass.IconButton(variants, [classes.class, classes["class:list"]])}>
