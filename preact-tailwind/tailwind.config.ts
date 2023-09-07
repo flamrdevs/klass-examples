@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-import coloradix, { gray, indigo } from "@coloradix/tailwindcss";
+import coloradix, { gray, iris } from "@coloradix/tailwindcss";
 
 const responsive = (...classNames: string[]) => {
   let result: string[] = [];
@@ -50,11 +50,11 @@ const safelist = [
 
 const radix = coloradix({
   gray,
-  indigo,
+  iris,
 })
   .alias({
     neutral: "gray",
-    primary: "indigo",
+    primary: "iris",
   })
   .overlay(true)
   .enable(true);
