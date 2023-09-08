@@ -11,3 +11,6 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
 - [Solid + Tailwind](./solid-tailwind/README.md)
 - [Svelte + Tailwind](./svelte-tailwind/README.md)
 - [Vue + Tailwind](./vue-tailwind/README.md)
+- [Preact + Master](./preact-master/README.md)
+- [React + Master](./react-master/README.md)
+- [Solid + Master](./solid-master/README.md)

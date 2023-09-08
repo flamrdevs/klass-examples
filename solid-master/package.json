@@ -1,0 +1,25 @@
+{
+  "name": "solid-master",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@klass/core": "^2.0.6",
+    "@klass/solid": "^2.0.6",
+    "solid-js": "^1.7.8",
+    "theme-service": "2.0.0-beta.152"
+  },
+  "devDependencies": {
+    "@master/css": "2.0.0-beta.171",
+    "@master/normal.css": "2.0.0-beta.171",
+    "@types/node": "^20.5.9",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
