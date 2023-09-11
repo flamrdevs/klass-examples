@@ -9,17 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "^2.0.6",
-    "@klass/solid": "^2.0.6",
-    "solid-js": "^1.7.8",
+    "@klass/core": "^3.3.3",
+    "@klass/solid": "^3.3.3",
+    "clsx": "^2.0.0",
+    "solid-js": "^1.7.11",
     "theme-service": "2.0.0-beta.152"
   },
   "devDependencies": {
     "@master/css": "2.0.0-beta.171",
     "@master/normal.css": "2.0.0-beta.171",
-    "@types/node": "^20.5.9",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
     "vite-plugin-solid": "^2.7.0"
   }
 }

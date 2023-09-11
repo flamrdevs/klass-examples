@@ -56,8 +56,7 @@ const radix = coloradix({
     neutral: "gray",
     primary: "iris",
   })
-  .overlay(true)
-  .enable(true);
+  .build();
 
 export default {
   content: ["src/**/*.{ts,tsx}"],

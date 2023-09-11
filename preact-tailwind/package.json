@@ -9,16 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "^2.0.5",
-    "@klass/preact": "^2.0.5",
+    "@klass/core": "^3.3.3",
+    "@klass/preact": "^3.3.3",
+    "clsx": "^2.0.0",
     "preact": "^10.17.1",
     "preact-router": "^4.1.2"
   },
   "devDependencies": {
-    "@coloradix/tailwindcss": "^1.4.0",
+    "@coloradix/tailwindcss": "^1.5.0",
     "@preact/preset-vite": "^2.5.0",
     "@radix-ui/colors": "^2.1.0",
-    "@types/node": "^20.5.9",
+    "@types/node": "^20.6.0",
     "autoprefixer": "^10.4.15",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3",

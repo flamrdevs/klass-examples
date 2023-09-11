@@ -1,7 +1,7 @@
 ---
 import type { HTMLAttributes } from "astro/types";
 
-import { cxs } from "@klass/core";
+import clsx from "clsx";
 import propsplit from "propsplit";
 
 type Props = HTMLAttributes<"svg"> & { size?: number };
@@ -21,7 +21,7 @@ const [classes, attrs] = propsplit(props, ["class", "class:list"]);
   stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
-  class={cxs("lucide lucide-moon", classes.class, classes["class:list"])}
+  class={clsx("lucide lucide-moon", classes.class, classes["class:list"])}
   {...attrs}
 >
   <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
