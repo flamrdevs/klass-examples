@@ -1,0 +1,72 @@
+---
+import Box from "./Box.astro";
+import Button from "./Button.astro";
+import Container from "./Container.astro";
+import LucideGithubIcon from "./LucideGithubIcon.astro";
+import LucideMoonIcon from "./LucideMoonIcon.astro";
+import LucideSunIcon from "./LucideSunIcon.astro";
+import Text from "./Text.astro";
+
+import * as klass from "./klass";
+
+type Props = {
+  active?: string;
+};
+
+const { active } = Astro.props;
+---
+
+<Container as="header" max="md">
+  <Box d="flex" p="1" class="items-center justify-between h-16">
+    <Text as="h1" size="lg" weight={600}>Klass + Astro + Tailwind Daisy UI</Text>
+
+    <Box as="ul" d="flex" class="items-center gap-4">
+      <Box as="li">
+        <a
+          href="/"
+          class={klass.Text({ size: "lg", weight: 600 }, [
+            "px-4 outline-none focus-visible:ring-1 focus-visible:ring-primary hover:underline rounded-xl",
+            active === "/" && "bg-primary text-white",
+          ])}
+        >
+          Home
+        </a>
+      </Box>
+      <Box as="li">
+        <a
+          href="/ui"
+          class={klass.Text({ size: "lg", weight: 600 }, [
+            "px-4 outline-none focus-visible:ring-1 focus-visible:ring-primary hover:underline rounded-xl",
+            active === "/ui" && "bg-primary text-white",
+          ])}
+        >
+          UI
+        </a>
+      </Box>
+    </Box>
+
+    <Box d="flex" class="gap-2">
+      <Button id="light-theme-button" size="sm" circle><LucideSunIcon /></Button>
+      <Button id="dark-theme-button" size="sm" circle><LucideMoonIcon /></Button>
+      <Button as="a" href="https://github.com/flamrdevs/klass" size="sm" circle>
+        <LucideGithubIcon />
+      </Button>
+    </Box>
+  </Box>
+</Container>
+
+<Container as="main" max="md">
+  <slot />
+</Container>
+
+<script>
+  const createThemeButton = (id: string, theme: "light" | "dark") => {
+    document.getElementById(id)!.addEventListener("click", () => {
+      document.documentElement.setAttribute("data-theme", theme);
+      localStorage.setItem("klass:theme", theme);
+    });
+  };
+
+  createThemeButton("light-theme-button", "light");
+  createThemeButton("dark-theme-button", "dark");
+</script>

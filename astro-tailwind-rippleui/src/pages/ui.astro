@@ -1,0 +1,39 @@
+---
+import { Box, Button, HTML, Layout, Text } from "~/components";
+---
+
+<HTML>
+  <Layout active="/ui">
+    <Box>
+      <Text align="center" size="xl" weight={500}>UI</Text>
+
+      <Box p="4">
+        <Text size="lg" weight={500}># Button</Text>
+
+        <Box px="5" py="2">
+          <Text weight={500}>Color</Text>
+
+          <Box d="flex" m="1" p="5" class="flex-wrap bg-polka-gray items-center gap-2 border border-gray-3 rounded-lg">
+            <Button color="primary">primary</Button>
+            <Button color="secondary">secondary</Button>
+            <Button color="success">success</Button>
+            <Button color="error">error</Button>
+            <Button color="warning">warning</Button>
+          </Box>
+        </Box>
+
+        <Box px="5" py="2">
+          <Text weight={500}>Size</Text>
+
+          <Box d="flex" m="1" p="5" class="flex-wrap bg-polka-gray items-center gap-2 border border-gray-3 rounded-lg">
+            <Button size="xs">extra small</Button>
+            <Button size="sm">small</Button>
+            <Button size="md">medium</Button>
+            <Button size="lg">large</Button>
+            <Button size="xl">extra large</Button>
+          </Box>
+        </Box>
+      </Box>
+    </Box>
+  </Layout>
+</HTML>

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-polka-base {
+  background-color: hsl(var(--b1));
+  opacity: 0.8;
+  background-image: radial-gradient(hsl(var(--n)) 0.75px, hsl(var(--b1)) 0.75px);
+  background-size: 15px 15px;
+}
