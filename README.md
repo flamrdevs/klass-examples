@@ -5,6 +5,8 @@
 Examples of the [Klass](https://github.com/flamrdevs/klass) library
 
 - [Astro + Tailwind](./astro-tailwind/README.md)
+- [Astro + Tailwind Daisy UI](./astro-tailwind-daisyui/README.md)
+- [Astro + Tailwind Ripple UI](./astro-tailwind-rippleui/README.md)
 - [Preact + Tailwind](./preact-tailwind/README.md)
 - [Qwik + Tailwind](./qwik-tailwind/README.md)
 - [React + Tailwind](./react-tailwind/README.md)
