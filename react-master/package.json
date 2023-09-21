@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "^3.3.3",
-    "@klass/react": "^3.3.3",
+    "@klass/core": "^3.4.6",
+    "@klass/react": "^3.4.6",
     "clsx": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -20,11 +20,11 @@
   "devDependencies": {
     "@master/css": "2.0.0-beta.171",
     "@master/normal.css": "2.0.0-beta.171",
-    "@types/node": "^20.6.0",
-    "@types/react": "^18.2.21",
+    "@types/node": "^20.6.3",
+    "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.6.0",
-    "@typescript-eslint/parser": "^6.6.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
     "@vitejs/plugin-react": "^4.0.4",
     "eslint": "^8.49.0",
     "eslint-plugin-react-hooks": "^4.6.0",

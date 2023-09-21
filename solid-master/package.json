@@ -9,16 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "^3.3.3",
-    "@klass/solid": "^3.3.3",
+    "@klass/core": "^3.4.6",
+    "@klass/solid": "^3.4.6",
     "clsx": "^2.0.0",
-    "solid-js": "^1.7.11",
+    "solid-js": "^1.7.12",
     "theme-service": "2.0.0-beta.152"
   },
   "devDependencies": {
     "@master/css": "2.0.0-beta.171",
     "@master/normal.css": "2.0.0-beta.171",
-    "@types/node": "^20.6.0",
+    "@types/node": "^20.6.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.9",
     "vite-plugin-solid": "^2.7.0"
