@@ -1,0 +1,27 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+import "~/globals.css";
+
+type Props = HTMLAttributes<"html">;
+---
+
+<html lang="en" style="display: none" {...Astro.props}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/x-icon" href="https://klass.pages.dev/favicon.ico" />
+    <title>Klass + Astro + Master</title>
+  </head>
+  <body class="bg:neutral-1 fg:neutral-12">
+    <slot />
+  </body>
+</html>
+
+<script>
+  import { initRuntime } from "@master/css";
+  import config from "../../master.css.ts";
+
+  initRuntime(config);
+</script>
