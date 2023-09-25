@@ -114,6 +114,26 @@ export const Button = klass({
       md: "btn-md",
       lg: "btn-lg",
     },
+    variant: {
+      default: "",
+      outline: "btn-outline",
+    },
+  },
+  defaultVariants: {
+    variant: "default",
+  },
+});
+
+export type KbdVariants = VariantsOf<typeof Kbd>;
+export const Kbd = klass({
+  base: ["kbd"],
+  variants: {
+    size: {
+      xs: "btn-xs",
+      sm: "btn-sm",
+      md: "btn-md",
+      lg: "btn-lg",
+    },
   },
 });
 
@@ -158,5 +178,27 @@ export const Text = klass({
     inline: false,
     color: "some",
     size: "md",
+  },
+});
+
+export type ToggleVariants = VariantsOf<typeof Toggle>;
+export const Toggle = klass({
+  base: ["toggle"],
+  variants: {
+    color: {
+      primary: "toggle-primary",
+      secondary: "toggle-secondary",
+      accent: "toggle-accent",
+      info: "toggle-info",
+      success: "toggle-success",
+      warning: "toggle-warning",
+      error: "toggle-error",
+    },
+    size: {
+      xs: "toggle-xs",
+      sm: "toggle-sm",
+      md: "toggle-md",
+      lg: "toggle-lg",
+    },
   },
 });

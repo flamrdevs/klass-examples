@@ -2,11 +2,11 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@klass/core':
-    specifier: ^3.4.6
-    version: 3.4.6
+    specifier: ^3.4.8
+    version: 3.4.8
   '@klass/preact':
-    specifier: ^3.4.6
-    version: 3.4.6(@klass/core@3.4.6)(preact@10.17.1)
+    specifier: ^3.4.8
+    version: 3.4.8(@klass/core@3.4.8)(preact@10.17.1)
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -28,14 +28,14 @@ devDependencies:
     specifier: ^2.5.0
     version: 2.5.0(@babel/core@7.22.20)(preact@10.17.1)(vite@4.4.9)
   '@types/node':
-    specifier: ^20.6.3
-    version: 20.6.3
+    specifier: ^20.6.5
+    version: 20.6.5
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
   vite:
     specifier: ^4.4.9
-    version: 4.4.9(@types/node@20.6.3)
+    version: 4.4.9(@types/node@20.6.5)
 
 packages:
 
@@ -586,19 +586,19 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@klass/core@3.4.6:
-    resolution: {integrity: sha512-bG+xLDsAwl9crh0G8Dg++qrCNNeM+Fvj7RDypKj+C0/QJIreF2sdWYyd5TKci89XM8PvJbaXqhBp9W+mv1hPiQ==}
+  /@klass/core@3.4.8:
+    resolution: {integrity: sha512-DMels9Ki3nYgzVP+MagcJ/HSucVOWbIEvcnPGoreG0P2gTMS7SXjo7vSY2Sl2kVanPvEAugPP2wp3CcSiC2kWA==}
     dependencies:
       clsx: 2.0.0
     dev: false
 
-  /@klass/preact@3.4.6(@klass/core@3.4.6)(preact@10.17.1):
-    resolution: {integrity: sha512-6fFYN2GeqJ+Ig6jt2y8KRKg6fD+ftUalNku2L0+UBI1rSVTuq0kfAiBjZguezgyQJODr9arBA3YIZbcoSCfX0w==}
+  /@klass/preact@3.4.8(@klass/core@3.4.8)(preact@10.17.1):
+    resolution: {integrity: sha512-azhX5XUKCem09x4iyuvQYKDjtnSsk3T/KzOToV8I1GJXJKoe3+pUqSWC2OE6TzGxAaE/Xc4kqd6ZM8/z2s4rAA==}
     peerDependencies:
-      '@klass/core': 3.4.6
+      '@klass/core': 3.4.8
       preact: ^10.0.0
     dependencies:
-      '@klass/core': 3.4.6
+      '@klass/core': 3.4.8
       preact: 10.17.1
     dev: false
 
@@ -631,7 +631,7 @@ packages:
       debug: 4.3.4
       kolorist: 1.8.0
       resolve: 1.22.4
-      vite: 4.4.9(@types/node@20.6.3)
+      vite: 4.4.9(@types/node@20.6.5)
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -665,7 +665,7 @@ packages:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.17.1
-      vite: 4.4.9(@types/node@20.6.3)
+      vite: 4.4.9(@types/node@20.6.5)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -686,8 +686,8 @@ packages:
     resolution: {integrity: sha512-/+PSy0C9SRSDcYpO94Y8sZWTDWY5bDFMRZf+nA2YXo/A6bi0vH2IAUSlOWvOfUDs6yhaPXyz3aMKXgfGf/HO5w==}
     dev: true
 
-  /@types/node@20.6.3:
-    resolution: {integrity: sha512-HksnYH4Ljr4VQgEy2lTStbCKv/P590tmPe5HqOnv9Gprffgv5WXAY+Y5Gqniu0GGqeTCUdBnzC3QSrzPkBkAMA==}
+  /@types/node@20.6.5:
+    resolution: {integrity: sha512-2qGq5LAOTh9izcc0+F+dToFigBWiK1phKPt7rNhOqJSr35y8rlIBjDwGtFSgAI6MGIhjwOVNSQZVdJsZJ2uR1w==}
     dev: true
 
   /ansi-styles@3.2.1:
@@ -983,7 +983,7 @@ packages:
       picocolors: 1.0.0
     dev: true
 
-  /vite@4.4.9(@types/node@20.6.3):
+  /vite@4.4.9(@types/node@20.6.5):
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -1011,7 +1011,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.6.3
+      '@types/node': 20.6.5
       esbuild: 0.18.20
       postcss: 8.4.29
       rollup: 3.29.1

@@ -90,11 +90,11 @@ export const Button = klass({
   base: ["btn"],
   variants: {
     color: {
-      primary: "btn-primary",
-      secondary: "btn-secondary",
-      success: "btn-success",
-      error: "btn-error",
-      warning: "btn-warning",
+      primary: "",
+      secondary: "",
+      success: "",
+      error: "",
+      warning: "",
     },
     circle: {
       true: "btn-circle",
@@ -109,7 +109,212 @@ export const Button = klass({
       lg: "btn-lg",
       xl: "btn-xl",
     },
+    variant: {
+      default: "",
+      outline: "",
+      solid: "",
+    },
   },
+  defaultVariants: {
+    variant: "default",
+  },
+  compoundVariants: [
+    {
+      variant: "default",
+      color: "primary",
+      class: "btn-primary",
+    },
+    {
+      variant: "default",
+      color: "secondary",
+      class: "btn-secondary",
+    },
+    {
+      variant: "default",
+      color: "success",
+      class: "btn-success",
+    },
+    {
+      variant: "default",
+      color: "error",
+      class: "btn-error",
+    },
+    {
+      variant: "default",
+      color: "warning",
+      class: "btn-warning",
+    },
+    {
+      variant: "outline",
+      color: "primary",
+      class: "btn-outline-primary",
+    },
+    {
+      variant: "outline",
+      color: "secondary",
+      class: "btn-outline-secondary",
+    },
+    {
+      variant: "outline",
+      color: "success",
+      class: "btn-outline-success",
+    },
+    {
+      variant: "outline",
+      color: "error",
+      class: "btn-outline-error",
+    },
+    {
+      variant: "outline",
+      color: "warning",
+      class: "btn-outline-warning",
+    },
+    {
+      variant: "solid",
+      color: "primary",
+      class: "btn-solid-primary",
+    },
+    {
+      variant: "solid",
+      color: "secondary",
+      class: "btn-solid-secondary",
+    },
+    {
+      variant: "solid",
+      color: "success",
+      class: "btn-solid-success",
+    },
+    {
+      variant: "solid",
+      color: "error",
+      class: "btn-solid-error",
+    },
+    {
+      variant: "solid",
+      color: "warning",
+      class: "btn-solid-warning",
+    },
+  ],
+});
+
+export type KbdVariants = VariantsOf<typeof Kbd>;
+export const Kbd = klass({
+  base: ["kbd"],
+  variants: {
+    size: {
+      xs: "btn-xs",
+      sm: "btn-sm",
+      md: "btn-md",
+      lg: "btn-lg",
+      xl: "btn-xl",
+    },
+  },
+});
+
+export type SwitchVariants = VariantsOf<typeof Switch>;
+export const Switch = klass({
+  base: ["switch"],
+  variants: {
+    color: {
+      primary: "",
+      secondary: "",
+      success: "",
+      error: "",
+      warning: "",
+    },
+    size: {
+      xs: "switch-xs",
+      sm: "switch-sm",
+      md: "switch-md",
+      lg: "switch-lg",
+      xl: "switch-xl",
+    },
+    variant: {
+      default: "",
+      bordered: "",
+      ghost: "",
+    },
+  },
+  defaultVariants: {
+    variant: "default",
+  },
+  compoundVariants: [
+    {
+      variant: "default",
+      color: "primary",
+      class: "switch-primary",
+    },
+    {
+      variant: "default",
+      color: "secondary",
+      class: "switch-secondary",
+    },
+    {
+      variant: "default",
+      color: "success",
+      class: "switch-success",
+    },
+    {
+      variant: "default",
+      color: "error",
+      class: "switch-error",
+    },
+    {
+      variant: "default",
+      color: "warning",
+      class: "switch-warning",
+    },
+    {
+      variant: "bordered",
+      color: "primary",
+      class: "switch-bordered-primary",
+    },
+    {
+      variant: "bordered",
+      color: "secondary",
+      class: "switch-bordered-secondary",
+    },
+    {
+      variant: "bordered",
+      color: "success",
+      class: "switch-bordered-success",
+    },
+    {
+      variant: "bordered",
+      color: "error",
+      class: "switch-bordered-error",
+    },
+    {
+      variant: "bordered",
+      color: "warning",
+      class: "switch-bordered-warning",
+    },
+    {
+      variant: "ghost",
+      color: "primary",
+      class: "switch-ghost-primary",
+    },
+    {
+      variant: "ghost",
+      color: "secondary",
+      class: "switch-ghost-secondary",
+    },
+    {
+      variant: "ghost",
+      color: "success",
+      class: "switch-ghost-success",
+    },
+    {
+      variant: "ghost",
+      color: "error",
+      class: "switch-ghost-error",
+    },
+    {
+      variant: "ghost",
+      color: "warning",
+      class: "switch-ghost-warning",
+    },
+  ],
 });
 
 export type TextVariants = VariantsOf<typeof Text>;

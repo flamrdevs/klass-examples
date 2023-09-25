@@ -1,5 +1,5 @@
 ---
-import { Box, Button, HTML, Layout, Text } from "~/components";
+import { Box, Button, HTML, Kbd, Layout, Text, Toggle } from "~/components";
 ---
 
 <HTML>
@@ -33,6 +33,59 @@ import { Box, Button, HTML, Layout, Text } from "~/components";
             <Button size="sm">small</Button>
             <Button size="md">medium</Button>
             <Button size="lg">large</Button>
+          </Box>
+        </Box>
+
+        <Box px="5" py="2">
+          <Text weight={500}>Variant</Text>
+
+          <Box d="flex" m="1" p="5" class="flex-wrap bg-polka-base items-center gap-2 border border-neutral rounded-lg">
+            <Button color="primary" variant="default">default</Button>
+            <Button color="primary" variant="outline">outline</Button>
+          </Box>
+        </Box>
+      </Box>
+
+      <Box p="4">
+        <Text size="lg" weight={500}># Kbd</Text>
+
+        <Box px="5" py="2">
+          <Text weight={500}>Size</Text>
+
+          <Box d="flex" m="1" p="5" class="flex-wrap bg-polka-base items-center gap-2 border border-neutral rounded-lg">
+            <Kbd size="xs">extra small</Kbd>
+            <Kbd size="sm">small</Kbd>
+            <Kbd size="md">medium</Kbd>
+            <Kbd size="lg">large</Kbd>
+          </Box>
+        </Box>
+      </Box>
+
+      <Box p="4">
+        <Text size="lg" weight={500}># Toggle</Text>
+
+        <Box px="5" py="2">
+          <Text weight={500}>Color</Text>
+
+          <Box d="flex" m="1" p="5" class="flex-wrap bg-polka-base items-center gap-2 border border-neutral rounded-lg">
+            <Toggle as="input" color="primary" checked />
+            <Toggle as="input" color="secondary" checked />
+            <Toggle as="input" color="accent" checked />
+            <Toggle as="input" color="info" checked />
+            <Toggle as="input" color="success" checked />
+            <Toggle as="input" color="warning" checked />
+            <Toggle as="input" color="error" checked />
+          </Box>
+        </Box>
+
+        <Box px="5" py="2">
+          <Text weight={500}>Size</Text>
+
+          <Box d="flex" m="1" p="5" class="flex-wrap bg-polka-base items-center gap-2 border border-neutral rounded-lg">
+            <Toggle as="input" size="xs" checked />
+            <Toggle as="input" size="sm" checked />
+            <Toggle as="input" size="md" checked />
+            <Toggle as="input" size="lg" checked />
           </Box>
         </Box>
       </Box>

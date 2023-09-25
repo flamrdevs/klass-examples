@@ -15,6 +15,9 @@ dependencies:
     version: 1.0.1
 
 devDependencies:
+  '@coloradix/unocss':
+    specifier: ^2.0.0
+    version: 2.0.0(@radix-ui/colors@2.1.0)(unocss@0.56.1)
   '@unocss/reset':
     specifier: ^0.56.1
     version: 0.56.1
@@ -323,6 +326,25 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
     dev: false
+
+  /@coloradix/colors@1.0.0(@radix-ui/colors@2.1.0):
+    resolution: {integrity: sha512-r9diMURkE3z5ZcWgAAxdWNMp46CTsjvxkgxnhfFxLlo4lJ6krvevHA1C6czyZFhV/hdiRbi3ugcM+WjG/SwnQg==}
+    peerDependencies:
+      '@radix-ui/colors': ^2.1.0
+    dependencies:
+      '@radix-ui/colors': 2.1.0
+    dev: true
+
+  /@coloradix/unocss@2.0.0(@radix-ui/colors@2.1.0)(unocss@0.56.1):
+    resolution: {integrity: sha512-BcM+mTW93lLayYJcIFdT9ECh4jUyOoTYpnTNBdSOEcwr6KFfkVPsR1Lm4Klu7mJxR0YxfoyP95PeVb4SM54qFA==}
+    peerDependencies:
+      unocss: ^0.56.0
+    dependencies:
+      '@coloradix/colors': 1.0.0(@radix-ui/colors@2.1.0)
+      unocss: 0.56.1(postcss@8.4.30)(vite@4.4.9)
+    transitivePeerDependencies:
+      - '@radix-ui/colors'
+    dev: true
 
   /@esbuild/android-arm64@0.18.20:
     resolution: {integrity: sha512-Nz4rJcchGDtENV0eMKUNa6L12zz2zBDXuhj/Vjh18zGqB44Bi7MBMSXjgunJgjRhCmKOjnPuZp4Mb6OKqtMHLQ==}
@@ -766,6 +788,10 @@ packages:
 
   /@polka/url@1.0.0-next.23:
     resolution: {integrity: sha512-C16M+IYz0rgRhWZdCmK+h58JMv8vijAA61gmz2rspCSwKwzBebpdcsiUmwrtJRdphuY30i6BSLEOP8ppbNLyLg==}
+    dev: true
+
+  /@radix-ui/colors@2.1.0:
+    resolution: {integrity: sha512-gcBnxjS2u2c6thQz/9K1+Pt2ZYcm5WKU4SLi0emYkRmYbVUw+37rlc5wgLtYOsSsRP9nxVtbJJYj6WVO7UUmZg==}
     dev: true
 
   /@rollup/pluginutils@5.0.4:

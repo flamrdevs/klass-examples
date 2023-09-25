@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@klass/core':
-    specifier: ^3.4.6
-    version: 3.4.6
+    specifier: ^3.4.8
+    version: 3.4.8
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -13,14 +13,11 @@ dependencies:
 
 devDependencies:
   '@coloradix/tailwindcss':
-    specifier: ^1.6.0
-    version: 1.6.0(@radix-ui/colors@2.1.0)(tailwindcss@3.3.3)
-  '@radix-ui/colors':
-    specifier: ^2.1.0
-    version: 2.1.0
+    specifier: ^2.0.0
+    version: 2.0.0(@radix-ui/colors@2.1.0)(tailwindcss@3.3.3)
   '@types/node':
-    specifier: ^20.6.3
-    version: 20.6.3
+    specifier: ^20.6.5
+    version: 20.6.5
   '@vitejs/plugin-vue':
     specifier: ^4.3.4
     version: 4.3.4(vite@4.4.9)(vue@3.3.4)
@@ -38,7 +35,7 @@ devDependencies:
     version: 5.2.2
   vite:
     specifier: ^4.4.9
-    version: 4.4.9(@types/node@20.6.3)
+    version: 4.4.9(@types/node@20.6.5)
   vue-tsc:
     specifier: ^1.8.13
     version: 1.8.13(typescript@5.2.2)
@@ -73,14 +70,23 @@ packages:
       '@babel/helper-validator-identifier': 7.22.5
       to-fast-properties: 2.0.0
 
-  /@coloradix/tailwindcss@1.6.0(@radix-ui/colors@2.1.0)(tailwindcss@3.3.3):
-    resolution: {integrity: sha512-ZKI7gjJPLhzb7e03cpg/e4z0RDModFEqjY1IFT1JYMvJewKqxv5eyWcJ5aTShLFRfym1Szd3XNoLl36GlogghA==}
+  /@coloradix/colors@1.0.0(@radix-ui/colors@2.1.0):
+    resolution: {integrity: sha512-r9diMURkE3z5ZcWgAAxdWNMp46CTsjvxkgxnhfFxLlo4lJ6krvevHA1C6czyZFhV/hdiRbi3ugcM+WjG/SwnQg==}
     peerDependencies:
       '@radix-ui/colors': ^2.1.0
-      tailwindcss: ^3.3.0
     dependencies:
       '@radix-ui/colors': 2.1.0
+    dev: true
+
+  /@coloradix/tailwindcss@2.0.0(@radix-ui/colors@2.1.0)(tailwindcss@3.3.3):
+    resolution: {integrity: sha512-rjcotRu/0xBpMlbp1H8rDDlCLx7ogYZg64v3VLj/NqpfY3Ww+h6DBdbmH2+OU96aXvYZT4H8WcQAZoV2Bne4aw==}
+    peerDependencies:
+      tailwindcss: ^3.3.0
+    dependencies:
+      '@coloradix/colors': 1.0.0(@radix-ui/colors@2.1.0)
       tailwindcss: 3.3.3
+    transitivePeerDependencies:
+      - '@radix-ui/colors'
     dev: true
 
   /@esbuild/android-arm64@0.18.20:
@@ -310,8 +316,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@klass/core@3.4.6:
-    resolution: {integrity: sha512-bG+xLDsAwl9crh0G8Dg++qrCNNeM+Fvj7RDypKj+C0/QJIreF2sdWYyd5TKci89XM8PvJbaXqhBp9W+mv1hPiQ==}
+  /@klass/core@3.4.8:
+    resolution: {integrity: sha512-DMels9Ki3nYgzVP+MagcJ/HSucVOWbIEvcnPGoreG0P2gTMS7SXjo7vSY2Sl2kVanPvEAugPP2wp3CcSiC2kWA==}
     dependencies:
       clsx: 2.0.0
     dev: false
@@ -341,8 +347,8 @@ packages:
     resolution: {integrity: sha512-gcBnxjS2u2c6thQz/9K1+Pt2ZYcm5WKU4SLi0emYkRmYbVUw+37rlc5wgLtYOsSsRP9nxVtbJJYj6WVO7UUmZg==}
     dev: true
 
-  /@types/node@20.6.3:
-    resolution: {integrity: sha512-HksnYH4Ljr4VQgEy2lTStbCKv/P590tmPe5HqOnv9Gprffgv5WXAY+Y5Gqniu0GGqeTCUdBnzC3QSrzPkBkAMA==}
+  /@types/node@20.6.5:
+    resolution: {integrity: sha512-2qGq5LAOTh9izcc0+F+dToFigBWiK1phKPt7rNhOqJSr35y8rlIBjDwGtFSgAI6MGIhjwOVNSQZVdJsZJ2uR1w==}
     dev: true
 
   /@vitejs/plugin-vue@4.3.4(vite@4.4.9)(vue@3.3.4):
@@ -352,7 +358,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.4.9(@types/node@20.6.3)
+      vite: 4.4.9(@types/node@20.6.5)
       vue: 3.3.4
     dev: true
 
@@ -1122,7 +1128,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite@4.4.9(@types/node@20.6.3):
+  /vite@4.4.9(@types/node@20.6.5):
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -1150,7 +1156,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.6.3
+      '@types/node': 20.6.5
       esbuild: 0.18.20
       postcss: 8.4.30
       rollup: 3.28.1

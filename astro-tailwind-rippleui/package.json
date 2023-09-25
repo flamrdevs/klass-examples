@@ -10,8 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@klass/core": "^3.4.6",
-    "astro": "^3.1.1",
+    "@klass/core": "^3.4.8",
+    "astro": "^3.1.2",
     "clsx": "^2.0.0",
     "propsplit": "^1.0.1"
   },
