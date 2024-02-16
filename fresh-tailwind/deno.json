@@ -1,0 +1,41 @@
+{
+  "lock": false,
+  "tasks": {
+    "check": "deno fmt --check && deno lint && deno check **/*.ts && deno check **/*.tsx",
+    "cli": "echo \"import '\\$fresh/src/dev/cli.ts'\" | deno run --unstable -A -",
+    "manifest": "deno task cli manifest $(pwd)",
+    "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "build": "deno run -A dev.ts build",
+    "preview": "deno run -A main.ts",
+    "update": "deno run -A -r https://fresh.deno.dev/update ."
+  },
+  "lint": {
+    "rules": {
+      "tags": ["fresh", "recommended"]
+    }
+  },
+  "exclude": ["**/_fresh/*"],
+  "imports": {
+    "$fresh/": "https://deno.land/x/fresh@1.6.5/",
+    "preact": "https://esm.sh/preact@10.19.2",
+    "preact/": "https://esm.sh/preact@10.19.2/",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.0",
+    "clsx": "https://esm.sh/clsx@2.1.0",
+    "@klass/core": "npm:@klass/core@4.0.0-next.9",
+    "@klass/core/setup": "npm:/@klass/core@4.0.0-next.9/setup",
+    "@klass/preact": "npm:@klass/preact@4.0.0-next.9",
+    "@klass/preact/setup": "npm:/@klass/preact@4.0.0-next.9/setup",
+    "tailwind-merge": "npm:tailwind-merge@2.2.1",
+    "tailwindcss": "npm:tailwindcss@3.4.1",
+    "tailwindcss/": "npm:/tailwindcss@3.4.1/",
+    "tailwindcss/plugin": "npm:/tailwindcss@3.4.1/plugin.js",
+    "@coloradix/tailwindcss": "npm:@coloradix/tailwindcss@2.3.1",
+    "$std/": "https://deno.land/std@0.211.0/"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "nodeModulesDir": true
+}

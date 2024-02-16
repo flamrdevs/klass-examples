@@ -1,0 +1,25 @@
+---
+import clsx from "clsx";
+
+import type { SVGProps } from "./types";
+
+type Props = SVGProps;
+
+const { lucide, size = 20, class: className, "class:list": classList, ...props } = Astro.props;
+---
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class={clsx(`lucide lucide-${lucide}`, className, classList)}
+  {...props}
+>
+  <slot />
+</svg>

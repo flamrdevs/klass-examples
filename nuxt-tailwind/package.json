@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@klass/core": "4.0.0-next.9",
+    "@klass/vue": "4.0.0-next.9",
+    "clsx": "^2.1.0",
+    "nuxt": "^3.10.2",
+    "tailwind-merge": "^2.2.1",
+    "vue": "^3.4.19",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@coloradix/tailwindcss": "^2.3.1",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "qwik-uno",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@coloradix/unocss": "^2.3.1",
+    "@types/node": "^20.11.16",
+    "@unocss/reset": "^0.58.4",
+    "typescript": "^5.2.2",
+    "unocss": "^0.58.4",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "@builder.io/qwik": "^1.4.3",
+    "@klass/core": "4.0.0-next.9",
+    "@klass/qwik": "4.0.0-next.9",
+    "clsx": "^2.1.0",
+    "ixstorage": "^1.0.5"
+  }
+}

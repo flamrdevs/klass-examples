@@ -1,0 +1,4 @@
+body {
+  background-color: rgb(var(--neutral-1));
+  color: rgb(var(--neutral-12));
+}

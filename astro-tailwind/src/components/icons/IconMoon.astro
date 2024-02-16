@@ -1,0 +1,13 @@
+---
+import SVG from "./SVG.astro";
+
+import type { IconProps } from "./types";
+
+type Props = IconProps;
+
+const props = Astro.props as Props;
+---
+
+<SVG {...props as any} lucide="moon">
+  <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+</SVG>

@@ -1,0 +1,15 @@
+.boxes-pattern {
+  background-color: rgb(var(--neutral-1));
+  background-image: linear-gradient(rgb(var(--neutral-3)) 1px, transparent 1px),
+    linear-gradient(to right, rgb(var(--neutral-3)) 1px, rgb(var(--neutral-1)) 1px);
+  background-size: 20px 20px;
+  background-position: center;
+}
+
+.boxes-pattern::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(transparent 20%, rgb(var(--neutral-1)));
+}
