@@ -7,8 +7,8 @@
     "start": "vinxi start"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.9",
-    "@klass/solid": "4.0.0-next.9",
+    "@klass/core": "4.0.0-next.11",
+    "@klass/solid": "4.0.0-next.11",
     "@solidjs/meta": "^0.29.3",
     "@solidjs/router": "^0.12.0",
     "@solidjs/start": "^0.5.7",

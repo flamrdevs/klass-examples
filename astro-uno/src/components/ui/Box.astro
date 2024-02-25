@@ -124,9 +124,9 @@ type Props<T extends HTMLTag = "div"> = Polymorphic<{ as: T } & VariantsOf<typeo
 
 const { as: As = "div", class: _class, "class:list": classList, ...props } = Astro.props;
 
-const [rvk, rest] = propsplit(props, variant.rvk);
+const [k, rest] = propsplit(props, variant.k);
 ---
 
-<As {...rest as any} class={variant(rvk, [_class, classList])}>
+<As {...rest as any} class={variant(k, [_class, classList])}>
   <slot />
 </As>

@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.9",
-    "@klass/react": "4.0.0-next.9",
+    "@klass/core": "4.0.0-next.11",
+    "@klass/react": "4.0.0-next.11",
     "clsx": "^2.1.0",
     "ixstorage": "^1.0.5",
     "react": "^18.2.0",

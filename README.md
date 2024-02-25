@@ -20,9 +20,41 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
       <th>
         UnoCSS
       </th>
+      <th>
+        MasterCSS
+      </th>
     </tr>
   </thead>
   <thead>
+    <tr>
+      <td>
+        <b>Vanilla</b>
+      </td>
+      <td align="center">
+        <a title="github" href="https://github.com/flamrdevs/klass-examples/tree/main/vanilla-tailwind">
+          <img src="https://klass.deno.dev/ui/icon-button/simple/github" />
+        </a>
+        <a title="stackblitz" href="https://stackblitz.com/fork/github/flamrdevs/klass-examples/tree/main/vanilla-tailwind?title=Klass%20Vanilla%20Tailwind">
+          <img src="https://klass.deno.dev/ui/icon-button/simple/stackblitz" />
+        </a>
+      </td>
+      <td align="center">
+        <a title="github" href="https://github.com/flamrdevs/klass-examples/tree/main/vanilla-uno">
+          <img src="https://klass.deno.dev/ui/icon-button/simple/github" />
+        </a>
+        <a title="stackblitz" href="https://stackblitz.com/fork/github/flamrdevs/klass-examples/tree/main/vanilla-uno?title=Klass%20Vanilla%20Uno">
+          <img src="https://klass.deno.dev/ui/icon-button/simple/stackblitz" />
+        </a>
+      </td>
+      <td align="center">
+        <a title="github" href="https://github.com/flamrdevs/klass-examples/tree/main/vanilla-master">
+          <img src="https://klass.deno.dev/ui/icon-button/simple/github" />
+        </a>
+        <a title="stackblitz" href="https://stackblitz.com/fork/github/flamrdevs/klass-examples/tree/main/vanilla-master?title=Klass%20Vanilla%20Master">
+          <img src="https://klass.deno.dev/ui/icon-button/simple/stackblitz" />
+        </a>
+      </td>
+    </tr>
     <tr>
       <td>
         <b>Astro</b>
@@ -43,6 +75,7 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
           <img src="https://klass.deno.dev/ui/icon-button/simple/stackblitz" />
         </a>
       </td>
+      <td align="center"></td>
     </tr>
     <tr>
       <td>
@@ -64,6 +97,7 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
           <img src="https://klass.deno.dev/ui/icon-button/simple/stackblitz" />
         </a>
       </td>
+      <td align="center"></td>
     </tr>
     <tr>
       <td>
@@ -85,6 +119,7 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
           <img src="https://klass.deno.dev/ui/icon-button/simple/stackblitz" />
         </a>
       </td>
+      <td align="center"></td>
     </tr>
     <tr>
       <td>
@@ -106,6 +141,7 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
           <img src="https://klass.deno.dev/ui/icon-button/simple/stackblitz" />
         </a>
       </td>
+      <td align="center"></td>
     </tr>
     <tr>
       <td>
@@ -127,6 +163,7 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
           <img src="https://klass.deno.dev/ui/icon-button/simple/stackblitz" />
         </a>
       </td>
+      <td align="center"></td>
     </tr>
     <tr>
       <td>
@@ -148,6 +185,7 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
           <img src="https://klass.deno.dev/ui/icon-button/simple/stackblitz" />
         </a>
       </td>
+      <td align="center"></td>
     </tr>
     <tr>
       <td>
@@ -158,6 +196,7 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
           <img src="https://klass.deno.dev/ui/icon-button/simple/github" />
         </a>
       </td>
+      <td align="center"></td>
       <td align="center"></td>
     </tr>
     <tr>
@@ -170,6 +209,7 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
         </a>
       </td>
       <td align="center"></td>
+      <td align="center"></td>
     </tr>
     <tr>
       <td>
@@ -180,6 +220,7 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
           <img src="https://klass.deno.dev/ui/icon-button/simple/github" />
         </a>
       </td>
+      <td align="center"></td>
       <td align="center"></td>
     </tr>
     <tr>
@@ -192,6 +233,7 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
         </a>
       </td>
       <td align="center"></td>
+      <td align="center"></td>
     </tr>
     <tr>
       <td>
@@ -202,6 +244,7 @@ Examples of the [Klass](https://github.com/flamrdevs/klass) library
           <img src="https://klass.deno.dev/ui/icon-button/simple/github" />
         </a>
       </td>
+      <td align="center"></td>
       <td align="center"></td>
     </tr>
   </thead>

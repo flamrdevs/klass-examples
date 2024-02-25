@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.9",
-    "@klass/solid": "4.0.0-next.9",
+    "@klass/core": "4.0.0-next.11",
+    "@klass/solid": "4.0.0-next.11",
     "clsx": "^2.1.0",
     "ixstorage": "^1.0.5",
     "solid-js": "^1.8.12",

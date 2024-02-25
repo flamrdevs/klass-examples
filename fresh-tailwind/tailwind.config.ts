@@ -14,7 +14,11 @@ const radix = coloradix({ gray, iris, red, green, orange, blue })
   .build();
 
 export default {
-  content: ["{routes,islands,components}/**/*.{ts,tsx}"],
+  content: [
+    //
+    "./components/**/*.{ts,tsx}",
+    "./routes/**/*.{ts,tsx}",
+  ],
   safelist: (() => {
     const responsive = (...classNames: string[]) => {
       const result: string[] = [];

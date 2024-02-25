@@ -16,8 +16,6 @@ export default component$(() => {
     <QwikCityProvider>
       <head>
         <meta charSet="utf-8" />
-        <title>qwik-city-tailwind</title>
-        <meta name="description" content="klass example with qwik-city + tailwindcss" />
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
       </head>

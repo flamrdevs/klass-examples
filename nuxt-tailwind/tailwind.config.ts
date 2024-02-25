@@ -14,7 +14,14 @@ const radix = coloradix({ gray, iris, red, green, orange, blue })
   .build();
 
 export default {
-  content: ["./components/**/*.tsx"],
+  content: [
+    //
+    "./components/**/*.{ts,tsx,vue}",
+    "./layouts/**/*.{ts,tsx,vue}",
+    "./pages/**/*.{ts,tsx,vue}",
+    "app.vue",
+    "error.vue",
+  ],
   safelist: (() => {
     const responsive = (...classNames: string[]) => {
       const result: string[] = [];

@@ -44,8 +44,8 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.9",
-    "@klass/qwik": "4.0.0-next.9",
+    "@klass/core": "4.0.0-next.11",
+    "@klass/qwik": "4.0.0-next.11",
     "clsx": "^2.1.0",
     "tailwind-merge": "^2.2.1"
   }

@@ -39,9 +39,9 @@ type Props<T extends HTMLTag = "button"> = Polymorphic<{ as: T } & VariantsOf<ty
 
 const { as: As = "button", class: _class, "class:list": classList, ...props } = Astro.props;
 
-const [vk, rest] = propsplit(props, variant.vk);
+const [k, rest] = propsplit(props, variant.k);
 ---
 
-<As type="button" {...rest as any} class={variant(vk, [_class, classList])}>
+<As type="button" {...rest as any} class={variant(k, [_class, classList])}>
   <slot />
 </As>
