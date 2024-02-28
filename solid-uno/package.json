@@ -9,19 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.11",
-    "@klass/solid": "4.0.0-next.11",
+    "@klass/core": "4.0.0-next.15",
+    "@klass/solid": "4.0.0-next.15",
     "clsx": "^2.1.0",
     "ixstorage": "^1.0.5",
-    "solid-js": "^1.8.12"
+    "solid-js": "^1.8.15"
   },
   "devDependencies": {
     "@coloradix/unocss": "^2.3.1",
-    "@types/node": "^20.11.16",
-    "@unocss/reset": "^0.58.4",
+    "@types/node": "^20.11.22",
+    "@unocss/reset": "^0.58.5",
     "typescript": "^5.2.2",
-    "unocss": "^0.58.4",
-    "vite": "^5.0.8",
-    "vite-plugin-solid": "^2.9.1"
+    "unocss": "^0.58.5",
+    "vite": "^5.1.4",
+    "vite-plugin-solid": "^2.10.1"
   }
 }

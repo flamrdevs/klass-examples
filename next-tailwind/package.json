@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.11",
-    "@klass/react": "4.0.0-next.11",
+    "@klass/core": "4.0.0-next.15",
+    "@klass/react": "4.0.0-next.15",
     "clsx": "^2.1.0",
     "next": "14.1.0",
     "react": "^18",
@@ -19,11 +19,11 @@
   },
   "devDependencies": {
     "@coloradix/tailwindcss": "^2.3.1",
-    "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/node": "^20.11.22",
+    "@types/react": "^18.2.60",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.17",
-    "eslint": "^8",
+    "eslint": "^8.57.0",
     "eslint-config-next": "14.1.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",

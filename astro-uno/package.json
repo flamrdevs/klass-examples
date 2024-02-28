@@ -10,17 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.11",
-    "astro": "^4.3.1",
+    "@klass/core": "4.0.0-next.15",
+    "astro": "^4.4.6",
     "clsx": "^2.1.0",
     "ixstoragest": "^1.0.5",
     "propsplit": "^1.0.1"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.4.1",
+    "@astrojs/check": "^0.5.6",
     "@coloradix/unocss": "^2.3.1",
-    "@unocss/reset": "^0.58.4",
+    "@unocss/reset": "^0.58.5",
     "typescript": "^5.3.3",
-    "unocss": "^0.58.4"
+    "unocss": "^0.58.5"
   }
 }

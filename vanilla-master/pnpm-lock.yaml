@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@klass/core':
-    specifier: 4.0.0-next.11
-    version: 4.0.0-next.11
+    specifier: 4.0.0-next.15
+    version: 4.0.0-next.15
   '@master/css-runtime':
     specifier: 2.0.0-rc.17
     version: 2.0.0-rc.17
@@ -238,8 +238,8 @@ packages:
     dev: true
     optional: true
 
-  /@klass/core@4.0.0-next.11:
-    resolution: {integrity: sha512-0Z3g99c+H0or88Gj9/Kn9oy60oF9X2r+l7yNkd0fXW28sINuJVF8RSn0osNvI1lDzuoD+1X6fkDW9t7KJYC28Q==}
+  /@klass/core@4.0.0-next.15:
+    resolution: {integrity: sha512-7DjOcbVjJKyaSRQrang3zHj0MsaWX41SKzYFwBZWmPuH2u5uOk3NwvuDQDZMNPP9UaKGAUI1hFbVYRUPETJvcw==}
     dependencies:
       clsx: 2.1.0
     dev: false

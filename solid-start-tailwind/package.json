@@ -7,15 +7,15 @@
     "start": "vinxi start"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.11",
-    "@klass/solid": "4.0.0-next.11",
+    "@klass/core": "4.0.0-next.15",
+    "@klass/solid": "4.0.0-next.15",
     "@solidjs/meta": "^0.29.3",
-    "@solidjs/router": "^0.12.0",
-    "@solidjs/start": "^0.5.7",
+    "@solidjs/router": "^0.12.4",
+    "@solidjs/start": "^0.6.0",
     "clsx": "^2.1.0",
     "solid-js": "^1.8.15",
     "tailwind-merge": "^2.2.1",
-    "vinxi": "^0.2.1"
+    "vinxi": "^0.3.5"
   },
   "devDependencies": {
     "@coloradix/tailwindcss": "^2.3.1",

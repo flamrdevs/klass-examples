@@ -10,13 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.11",
-    "@klass/vue": "4.0.0-next.11",
+    "@klass/core": "4.0.0-next.15",
+    "@klass/vue": "4.0.0-next.15",
     "clsx": "^2.1.0",
-    "nuxt": "^3.10.2",
+    "nuxt": "^3.10.3",
     "tailwind-merge": "^2.2.1",
-    "vue": "^3.4.19",
-    "vue-router": "^4.2.5"
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@coloradix/tailwindcss": "^2.3.1",

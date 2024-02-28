@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.11",
-    "@klass/react": "4.0.0-next.11",
+    "@klass/core": "4.0.0-next.15",
+    "@klass/react": "4.0.0-next.15",
     "clsx": "^2.1.0",
     "ixstorage": "^1.0.5",
     "react": "^18.2.0",
@@ -19,18 +19,18 @@
   },
   "devDependencies": {
     "@coloradix/unocss": "^2.3.1",
-    "@types/node": "^20.11.16",
-    "@types/react": "^18.2.51",
-    "@types/react-dom": "^18.2.17",
-    "@typescript-eslint/eslint-plugin": "^6.20.0",
-    "@typescript-eslint/parser": "^6.20.0",
-    "@unocss/reset": "^0.58.4",
+    "@types/node": "^20.11.22",
+    "@types/react": "^18.2.60",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "@unocss/reset": "^0.58.5",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.55.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
-    "unocss": "^0.58.4",
-    "vite": "^5.0.8"
+    "unocss": "^0.58.5",
+    "vite": "^5.1.4"
   }
 }
