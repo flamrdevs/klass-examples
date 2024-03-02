@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.15",
+    "@klass/core": "4.0.0-next.20",
     "astro": "^4.4.6",
     "clsx": "^2.1.0",
     "ixstoragest": "^1.0.5",

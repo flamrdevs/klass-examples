@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@klass/core':
-    specifier: 4.0.0-next.15
-    version: 4.0.0-next.15
+    specifier: 4.0.0-next.20
+    version: 4.0.0-next.20
   '@klass/react':
-    specifier: 4.0.0-next.15
-    version: 4.0.0-next.15(@klass/core@4.0.0-next.15)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 4.0.0-next.20
+    version: 4.0.0-next.20(@klass/core@4.0.0-next.20)(react-dom@18.2.0)(react@18.2.0)
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
@@ -191,20 +191,20 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@klass/core@4.0.0-next.15:
-    resolution: {integrity: sha512-7DjOcbVjJKyaSRQrang3zHj0MsaWX41SKzYFwBZWmPuH2u5uOk3NwvuDQDZMNPP9UaKGAUI1hFbVYRUPETJvcw==}
+  /@klass/core@4.0.0-next.20:
+    resolution: {integrity: sha512-WwqyikRSYz7M0PO+FIVeXlaKz4wUZAz5MoRuWCBDH9o0chGY2zWe+Ro1wv14N7n5VrgPeQ17qeXDk6lIB/1TdQ==}
     dependencies:
       clsx: 2.1.0
     dev: false
 
-  /@klass/react@4.0.0-next.15(@klass/core@4.0.0-next.15)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-TyrvCkO3UeZJC8WfigwLFTkcdrifjnL1ONtl7BWu09BqwtX/UoO+/ut2ZC6GRP7j3lu/bK4nHo2wrnkE0shq9Q==}
+  /@klass/react@4.0.0-next.20(@klass/core@4.0.0-next.20)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-0VlYABKE8evoeutrxn5t/bGLrlm+bqITH4J3b35Ow504pjgP6T1hnRhST0M3DQsfK7quLRwTc1hYjlVP7MvOWA==}
     peerDependencies:
-      '@klass/core': 4.0.0-next.15
+      '@klass/core': 4.0.0-next.20
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@klass/core': 4.0.0-next.15
+      '@klass/core': 4.0.0-next.20
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false

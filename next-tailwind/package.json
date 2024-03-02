@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.15",
-    "@klass/react": "4.0.0-next.15",
+    "@klass/core": "4.0.0-next.20",
+    "@klass/react": "4.0.0-next.20",
     "clsx": "^2.1.0",
     "next": "14.1.0",
     "react": "^18",

@@ -10,8 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.15",
-    "@klass/vue": "4.0.0-next.15",
+    "@klass/core": "4.0.0-next.20",
+    "@klass/vue": "4.0.0-next.20",
     "clsx": "^2.1.0",
     "nuxt": "^3.10.3",
     "tailwind-merge": "^2.2.1",

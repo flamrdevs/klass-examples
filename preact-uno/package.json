@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.15",
-    "@klass/preact": "4.0.0-next.15",
+    "@klass/core": "4.0.0-next.20",
+    "@klass/preact": "4.0.0-next.20",
     "clsx": "^2.1.0",
     "ixstorage": "^1.0.5",
     "preact": "^10.19.6"

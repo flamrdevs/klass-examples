@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@klass/core':
-    specifier: 4.0.0-next.15
-    version: 4.0.0-next.15
+    specifier: 4.0.0-next.20
+    version: 4.0.0-next.20
   '@klass/vue':
-    specifier: 4.0.0-next.15
-    version: 4.0.0-next.15(@klass/core@4.0.0-next.15)(vue@3.4.21)
+    specifier: 4.0.0-next.20
+    version: 4.0.0-next.20(@klass/core@4.0.0-next.20)(vue@3.4.21)
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
@@ -641,19 +641,19 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@klass/core@4.0.0-next.15:
-    resolution: {integrity: sha512-7DjOcbVjJKyaSRQrang3zHj0MsaWX41SKzYFwBZWmPuH2u5uOk3NwvuDQDZMNPP9UaKGAUI1hFbVYRUPETJvcw==}
+  /@klass/core@4.0.0-next.20:
+    resolution: {integrity: sha512-WwqyikRSYz7M0PO+FIVeXlaKz4wUZAz5MoRuWCBDH9o0chGY2zWe+Ro1wv14N7n5VrgPeQ17qeXDk6lIB/1TdQ==}
     dependencies:
       clsx: 2.1.0
     dev: false
 
-  /@klass/vue@4.0.0-next.15(@klass/core@4.0.0-next.15)(vue@3.4.21):
-    resolution: {integrity: sha512-GIuXl05QsQmb6LqJ1d+ZB5ZVqGlhvh4Tq3ZNG03qtH0R/zjg670GOwPAgMEiSzDlg8DB77vDa4V2RX+8ywEV3A==}
+  /@klass/vue@4.0.0-next.20(@klass/core@4.0.0-next.20)(vue@3.4.21):
+    resolution: {integrity: sha512-WeQ65VlcoVxoEUnShIsLItRExLzPsGWsLqKELTdRm7Sy2kWVpVHipjNNT7kgjOjzx7MZgL7EVBFAAtXujvLc8A==}
     peerDependencies:
-      '@klass/core': 4.0.0-next.15
+      '@klass/core': 4.0.0-next.20
       vue: ^3.4.0
     dependencies:
-      '@klass/core': 4.0.0-next.15
+      '@klass/core': 4.0.0-next.20
       vue: 3.4.21(typescript@5.3.3)
     dev: false
 

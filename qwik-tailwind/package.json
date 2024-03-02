@@ -19,8 +19,8 @@
   },
   "dependencies": {
     "@builder.io/qwik": "^1.4.5",
-    "@klass/core": "4.0.0-next.15",
-    "@klass/qwik": "4.0.0-next.15",
+    "@klass/core": "4.0.0-next.20",
+    "@klass/qwik": "4.0.0-next.20",
     "clsx": "^2.1.0",
     "ixstorage": "^1.0.5",
     "tailwind-merge": "^2.2.1"

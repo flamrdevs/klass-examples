@@ -9,11 +9,11 @@ dependencies:
     specifier: ^1.4.5
     version: 1.4.5(@types/node@20.11.22)(undici@6.6.2)
   '@klass/core':
-    specifier: 4.0.0-next.15
-    version: 4.0.0-next.15
+    specifier: 4.0.0-next.20
+    version: 4.0.0-next.20
   '@klass/qwik':
-    specifier: 4.0.0-next.15
-    version: 4.0.0-next.15(@builder.io/qwik@1.4.5)(@klass/core@4.0.0-next.15)
+    specifier: 4.0.0-next.20
+    version: 4.0.0-next.20(@builder.io/qwik@1.4.5)(@klass/core@4.0.0-next.20)
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
@@ -327,20 +327,20 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@klass/core@4.0.0-next.15:
-    resolution: {integrity: sha512-7DjOcbVjJKyaSRQrang3zHj0MsaWX41SKzYFwBZWmPuH2u5uOk3NwvuDQDZMNPP9UaKGAUI1hFbVYRUPETJvcw==}
+  /@klass/core@4.0.0-next.20:
+    resolution: {integrity: sha512-WwqyikRSYz7M0PO+FIVeXlaKz4wUZAz5MoRuWCBDH9o0chGY2zWe+Ro1wv14N7n5VrgPeQ17qeXDk6lIB/1TdQ==}
     dependencies:
       clsx: 2.1.0
     dev: false
 
-  /@klass/qwik@4.0.0-next.15(@builder.io/qwik@1.4.5)(@klass/core@4.0.0-next.15):
-    resolution: {integrity: sha512-ncGyaccjJh/qOVqJn37thDyhQSjuj+PuBzfjV7AXedix/YLMUaAb0VnwlNDYBM7nZu58gqplsyTt0VKwSkER+Q==}
+  /@klass/qwik@4.0.0-next.20(@builder.io/qwik@1.4.5)(@klass/core@4.0.0-next.20):
+    resolution: {integrity: sha512-libpV/AEC9K8sGhnXOZibiR8N+TigT36GbfM2zRtNmt9VGzsT3g2Qttu8ZZsg0mpcZTRvUTqp1G59p+ELNtxzQ==}
     peerDependencies:
       '@builder.io/qwik': ^1.4.0
-      '@klass/core': 4.0.0-next.15
+      '@klass/core': 4.0.0-next.20
     dependencies:
       '@builder.io/qwik': 1.4.5(@types/node@20.11.22)(undici@6.6.2)
-      '@klass/core': 4.0.0-next.15
+      '@klass/core': 4.0.0-next.20
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:

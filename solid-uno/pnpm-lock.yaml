@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@klass/core':
-    specifier: 4.0.0-next.15
-    version: 4.0.0-next.15
+    specifier: 4.0.0-next.20
+    version: 4.0.0-next.20
   '@klass/solid':
-    specifier: 4.0.0-next.15
-    version: 4.0.0-next.15(@klass/core@4.0.0-next.15)(solid-js@1.8.15)
+    specifier: 4.0.0-next.20
+    version: 4.0.0-next.20(@klass/core@4.0.0-next.20)(solid-js@1.8.15)
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
@@ -655,19 +655,19 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@klass/core@4.0.0-next.15:
-    resolution: {integrity: sha512-7DjOcbVjJKyaSRQrang3zHj0MsaWX41SKzYFwBZWmPuH2u5uOk3NwvuDQDZMNPP9UaKGAUI1hFbVYRUPETJvcw==}
+  /@klass/core@4.0.0-next.20:
+    resolution: {integrity: sha512-WwqyikRSYz7M0PO+FIVeXlaKz4wUZAz5MoRuWCBDH9o0chGY2zWe+Ro1wv14N7n5VrgPeQ17qeXDk6lIB/1TdQ==}
     dependencies:
       clsx: 2.1.0
     dev: false
 
-  /@klass/solid@4.0.0-next.15(@klass/core@4.0.0-next.15)(solid-js@1.8.15):
-    resolution: {integrity: sha512-JmQD5ivv6lWt1MWH0m0oDdEnYS27QU2avOscPFUPki1Y9/DUU8l/zttVjq90CsPnwqD6lXFr3t3MtLpHsuxzmw==}
+  /@klass/solid@4.0.0-next.20(@klass/core@4.0.0-next.20)(solid-js@1.8.15):
+    resolution: {integrity: sha512-hFvOq/7TheCNFGOmZUangjoNcejN7MYbh8r80iUwq3kmcbT6jytaqG1+wPNfo0+ZORhQ9jendTtvvEveWKBYOg==}
     peerDependencies:
-      '@klass/core': 4.0.0-next.15
+      '@klass/core': 4.0.0-next.20
       solid-js: ^1.8.0
     dependencies:
-      '@klass/core': 4.0.0-next.15
+      '@klass/core': 4.0.0-next.20
       solid-js: 1.8.15
     dev: false
 

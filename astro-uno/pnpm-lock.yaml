@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@klass/core':
-    specifier: 4.0.0-next.15
-    version: 4.0.0-next.15
+    specifier: 4.0.0-next.20
+    version: 4.0.0-next.20
   astro:
     specifier: ^4.4.6
     version: 4.4.6(typescript@5.3.3)
@@ -718,8 +718,8 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@klass/core@4.0.0-next.15:
-    resolution: {integrity: sha512-7DjOcbVjJKyaSRQrang3zHj0MsaWX41SKzYFwBZWmPuH2u5uOk3NwvuDQDZMNPP9UaKGAUI1hFbVYRUPETJvcw==}
+  /@klass/core@4.0.0-next.20:
+    resolution: {integrity: sha512-WwqyikRSYz7M0PO+FIVeXlaKz4wUZAz5MoRuWCBDH9o0chGY2zWe+Ro1wv14N7n5VrgPeQ17qeXDk6lIB/1TdQ==}
     dependencies:
       clsx: 2.1.0
     dev: false
