@@ -38,5 +38,5 @@ const IconButton = klassed(
   }
 );
 
-export type IconButtonVariants = VariantsOf<(typeof IconButton)["klass"]>;
+export type IconButtonVariants = VariantsOf<(typeof IconButton)["fx"]>;
 export default IconButton;

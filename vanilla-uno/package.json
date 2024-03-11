@@ -9,13 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.20",
+    "@klass/core": "4.0.0-next.23",
     "clsx": "^2.1.0"
   },
   "devDependencies": {
     "@unocss/reset": "^0.58.4",
-    "typescript": "^5.2.2",
+    "typescript": "^5.4.2",
     "unocss": "^0.58.4",
-    "vite": "^5.1.4"
+    "vite": "^5.1.5"
   }
 }

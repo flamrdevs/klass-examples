@@ -9,21 +9,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.20",
-    "@klass/vue": "4.0.0-next.20",
+    "@klass/core": "4.0.0-next.23",
+    "@klass/vue": "4.0.0-next.23",
     "clsx": "^2.1.0",
     "ixstorage": "^1.0.5",
     "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@coloradix/unocss": "^2.3.1",
-    "@types/node": "^20.11.22",
+    "@coloradix/unocss": "^2.3.2",
+    "@types/node": "^20.11.25",
     "@unocss/reset": "^0.58.5",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
-    "typescript": "^5.2.2",
+    "typescript": "^5.4.2",
     "unocss": "^0.58.5",
-    "vite": "^5.1.4",
-    "vue-tsc": "^1.8.25"
+    "vite": "^5.1.5",
+    "vue-tsc": "^2.0.6"
   }
 }

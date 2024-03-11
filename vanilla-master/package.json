@@ -9,14 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@klass/core": "4.0.0-next.20",
+    "@klass/core": "4.0.0-next.23",
     "@master/css-runtime": "2.0.0-rc.17",
     "clsx": "^2.1.0"
   },
   "devDependencies": {
     "@master/css": "2.0.0-rc.17",
-    "@master/normal.css": "2.0.0-rc.17",
-    "typescript": "^5.2.2",
-    "vite": "^5.1.4"
+    "@master/normal.css": "2.0.0",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.5"
   }
 }

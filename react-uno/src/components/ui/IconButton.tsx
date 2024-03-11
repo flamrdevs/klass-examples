@@ -40,5 +40,5 @@ const IconButton = klassed(
 
 if (import.meta.env.DEV) IconButton.displayName = "IconButton";
 
-export type IconButtonVariants = VariantsOf<(typeof IconButton)["klass"]>;
+export type IconButtonVariants = VariantsOf<(typeof IconButton)["fx"]>;
 export default IconButton;

@@ -117,5 +117,5 @@ const Box = reklassed("div", {
 
 if (import.meta.env.DEV) Box.displayName = "Box";
 
-export type BoxVariants = VariantsOf<(typeof Box)["reklass"]>;
+export type BoxVariants = VariantsOf<(typeof Box)["fx"]>;
 export default Box;

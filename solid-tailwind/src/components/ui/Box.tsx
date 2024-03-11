@@ -115,5 +115,5 @@ const Box = reklassed("div", {
   },
 });
 
-export type BoxVariants = VariantsOf<(typeof Box)["reklass"]>;
+export type BoxVariants = VariantsOf<(typeof Box)["fx"]>;
 export default Box;

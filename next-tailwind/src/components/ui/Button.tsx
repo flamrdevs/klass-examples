@@ -40,5 +40,5 @@ const Button = klassed(
 
 if (process.env.NODE_ENV === "development") Button.displayName = "Button";
 
-export type ButtonVariants = VariantsOf<(typeof Button)["klass"]>;
+export type ButtonVariants = VariantsOf<(typeof Button)["fx"]>;
 export default Button;
